@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="img-area">
+      <div class="img-text">
+        <img src="img/logo.jpg" alt="some logo pic" width="100vh" />
+        Odin
+      </div>
+    </div>
+    <div class="text-area">
+      <div class="header">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo
+          libero beatae eveniet sint. Voluptatibus, tempora eveniet ducimus
+          <em>illo</em> provident fugiat maiores inventore?
+        </p>
+        <p>Lorem <em>ipsum</em> dolor sit amet.</p>
+      </div>
+      <div class="body">
+        <p class="letsdothis">Let's do this!</p>
+        <form action="post">
+          <div class="form">
+            <div class="form-row">
+              <div class="form-element">
+                <label for="first_name">FIRST NAME</label>
+                <input
+                  type="text"
+                  name="first_name"
+                  id="first_name"
+                  minlength="2"
+                  maxlength="10"
+                />
+              </div>
+              <div class="form-element">
+                <label for="last_name">LAST NAME</label>
+                <input
+                  type="text"
+                  name="last_name"
+                  id="last_name"
+                  minlength="2"
+                  maxlength="10"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-element">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div class="form-element">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-element">
+                <label for="pwd">PASSWORD</label>
+                <input
+                  type="password"
+                  name="pwd"
+                  id="pwd"
+                  minlength="4"
+                  maxlength="10"
+                />
+              </div>
+              <div class="form-element">
+                <label for="confirm_pwd">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  name="confirm_pwd"
+                  id="confirm_pwd"
+                  minlength="4"
+                  maxlength="10"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="footer">
+        <button type="submit" class="create-acc-btn">Create Account</button>
+        <p class="new-account">
+          Already have an account? <a class="login-text">Log in</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
